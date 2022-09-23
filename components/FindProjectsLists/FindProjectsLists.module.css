@@ -1,0 +1,33 @@
+.find__projects__list{
+     padding:2% 4%;
+     text-align: center;
+}
+
+.find__projects__area{
+    padding:3% 5%;
+    text-align: center;
+    background-color: #EEF4FE;
+    border-radius: 15px;
+}
+
+.heading{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.card__group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects__heading{
+    font-size: 24px;
+    font-weight: bold;
+    color: #2A5CA7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+

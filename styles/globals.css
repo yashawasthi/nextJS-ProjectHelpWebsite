@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Gelasio:wght@400;600;700&family=Josefin+Sans:wght@600&family=Montserrat:wght@400;800&family=Nunito&family=Open+Sans:wght@400;600;700&display=swap');
+
+:root{
+  --gray:#a1a1a1;
+  --primaryColor:#5597F9;
+  --darkPrimary:#3671ca;
+  --secondaryColor:#DFEAE9;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Cabin', sans-serif,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+.badge{
+  border-radius: 100px !important;
+  width: fit-content !important;
+  padding: 5px 10px !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  font-size:0.9rem !important;
+}
+
+.hard{
+ background-color:  #FFE6DB !important;
+ color: rgb(218, 1, 1) !important;
+}
+
+.medium{
+  background-color: #E1EDFF !important;
+  color: rgb(1, 120, 218) !important;
+ }
+
+
+ .easy{
+  background-color: #dafff0 !important;
+  color: rgb(1, 218, 99) !important;
+ }
+
+
+ 
+.primaryBtn{
+  background: var(--primaryColor) !important;
+  padding: 15px 30px;
+  box-shadow: 0px 3px 3px 0px rgb(174, 212, 226) !important;
+  border-radius: 3px !important;
+  color: white !important;
+  font-weight: bold !important;
+  border: none !important;
+  transition:200ms ease-out !important;
+
+
+}
+
+.primaryBtn:hover:not([disabled]){
+  background: var(--darkPrimary) !important;
+  color:white !important;
+}
+
+.project__details__banner{
+  position: fixed !important;
+  top: 75px !important;
+  left: 0px !important;
+  right: 0px !important;
+  z-index: 99 !important;
+  background-color: #F9F9F9 !important;
+  padding-top: 3% !important;
+  padding-bottom: 0px !important;
+  transition: 200ms ease-out !important;
+ 
+}
+
+.project__details__banner__onScroll{
+  padding-top: 2% !important;
+  height: fit-content !important;
+
+
+}
+
+.project__details__banner__onScroll .project__heading h1{
+  font-size: 1.7rem !important;
+}
+
+.project__details__banner__onScroll .project__category{
+  display: none !important;
+}
+
+.project__category{
+  display: inline-flex !important;
+  -moz-box-align: center !important;
+  align-items: center !important;
+  font-size: 12px !important;
+  line-height: 150% !important;
+  color: rgb(0, 41, 102) !important;
+  border: 1px solid rgb(227, 233, 240) !important;
+  box-sizing: border-box !important;
+  border-radius: 13px !important;
+  padding: 4px 12px !important;
+}
+
+.project__category:hover{
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.project__heading{
+  display: flex !important;
+  justify-content: space-between !important;
+  
+}
+
+.project__nav ul li{
+  padding: 10px !important;
+}
+
+.project__nav ul li:hover{
+  background-color: white !important;
+  border: none !important;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+  cursor: pointer !important;
+
+}
+
+.project__nav ul li.active{
+  background-color: white !important;
+  border-top:1px solid lightgray !important;
+  border-bottom: none !important;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+  box-shadow: inset 0px 1px 1px rgb(224, 224, 224) !important;
+
+}
+.project__nav ul li.active .project__tab__icon{
+  color: #5597F9 !important;
+}
+
+
+.project__nav .project__tab__icon{
+  margin-right: 5px !important;
+}
+
+.projects__main__content__wrapper{
+  margin-top: 275px !important;
+}
+.projects__practice__content{
+  background-color: #F8E18B !important;
+  padding: 10px 20px !important;
+  border-radius: 15px !important;
+  width: 75% !important;
+ 
+}
+
+.projects__practice__content h5{
+  color: rgb(82, 35, 4) !important;
+  font-size: 1.5rem !important;
+}
+
+.projects__practice__content p{
+  margin-top: 10px !important;
+  color: rgb(121, 76, 50) !important;
+  font-family: 'Open Sans',sans-serif !important;
+}
+
+.projects__details__container{
+  margin-top: 5% !important;
+}
+
+.projects__details__container h4{
+  font-weight: bold !important;
+
+}
+
+.projects__details__container p{
+  color: rgb(37, 37, 37) !important;
+  font-family: 'Open Sans',sans-serif !important;
+  font-size: 0.9rem !important;
+}
+
+.projects__get__help{
+  background-color: rgb(243, 246, 250) !important;
+  background-attachment: scroll !important;
+  background-size: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  border-radius: 12px !important;
+  background-image: url("/assets/left-brick.svg"), url("/assets/right-brick.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: left center, right center !important;
+  padding: 20px 12px 12px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  -moz-box-align: center !important;
+  align-items: center !important;
+  margin-top: 5% !important;
+  margin-left: 2% !important;
+}
+
+.projects__get__help .primaryBtn{
+  padding:5px 15px !important;
+  width: fit-content !important;
+  font-size: 0.9rem !important;
+  margin-top: 2% !important;
+}
+
+.grayBadge{
+  background-color: rgb(241, 240, 240) !important;
+  margin: 3px !important;
+  padding: 3px 10px !important;
+  font-weight: bold !important;
+  font-size: 0.9rem !important;
+  color: rgb(61, 60, 60) !important;
+}
+
+.projects__info{
+  margin-top: 15% !important;
+}

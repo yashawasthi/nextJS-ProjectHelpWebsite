@@ -1,0 +1,45 @@
+.course__card{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 350px;
+    height:400px;
+    text-align: left;
+    border: 2px solid black;
+    margin:20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.card__header{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.course__card p{
+    color: var(--gray);
+}
+
+.technologies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tech__item{
+    background-color: rgb(241, 240, 240);
+    margin: 3px;
+    padding: 3px 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: rgb(61, 60, 60);
+}
+
+
+.course__link__wrapper{
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.course__link{
+    color: var(--primaryColor);
+}

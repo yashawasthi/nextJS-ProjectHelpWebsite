@@ -1,0 +1,22 @@
+.section2__text h1{
+    font-weight: bold;
+}
+
+.section2__para{
+    color: var(--gray);
+    margin-top: 2%;
+
+}
+
+
+
+.lightIcon{
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    visibility: visible;
+    visibility: visible;
+    filter: invert(40%) sepia(18%) saturate(0%) hue-rotate(233deg) brightness(91%) contrast(85%);
+}

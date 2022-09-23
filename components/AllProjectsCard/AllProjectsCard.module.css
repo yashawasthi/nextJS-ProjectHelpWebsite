@@ -1,0 +1,43 @@
+.all__projects__card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height:300px;
+    text-align: left;
+    border: 2px solid black;
+    margin:10px;
+}
+.all__projects__header{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.all__projects__card p{
+    color: var(--gray);
+}
+
+.technologies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tech__item{
+    background-color: rgb(241, 240, 240);
+    margin: 3px;
+    padding: 3px 5px;
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: rgb(61, 60, 60);
+}
+
+
+.all__projects__link__wrapper{
+    float: right;
+    margin-top:auto;
+    margin-right: 30px;
+}
+
+.all__projects__card__link{
+    color: var(--primaryColor);
+}

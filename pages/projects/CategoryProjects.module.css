@@ -1,0 +1,207 @@
+.category__projects{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 3% 4%;
+}
+
+.category__projects__banner{
+    background-color: #F3F6FA;
+    border-radius: 10px;
+    padding: 10px 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.category__projects__banner h1{
+    font-size: 2.2rem;
+    color:#00193D;
+    font-weight: bold;
+
+}
+
+.category__projects__headpara{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+.category__projects__rightImg{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    
+}
+
+.category__projects__bottomImg{
+    position: absolute;
+    bottom: -15px;
+    left: -10px;
+}
+
+.category__projects__bottom{
+    margin-top: 5%;
+}
+
+.category__projects__listing{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+.category__projects__listing h1{
+    font-size: 2.1rem;
+    margin-bottom: 2%;
+}
+
+.category__projects__listing__cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.findMentorSection{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.findMentorWrapper{
+    background-color: #E6F6FA;
+    border-radius: 10px;
+    margin: 80px auto;
+    padding: 52px 20px;
+    max-width: 1000px;
+    display: flex;
+    
+}
+
+.findMentorContent{
+    max-width: 711px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.findMentorLogoArea{
+    display: flex;
+    align-items: center;
+    padding: 15px 31px;
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+.findMentorLogoArea h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 10px;
+    color:#01384B;
+    margin-top: 10px;
+}
+
+.findMentorWrapper h3{
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 24px;
+    margin: 4px 0px 12px;
+    color: rgb(0, 54, 72);
+}
+
+.findMentorWrapper p{
+    color: rgb(24, 23, 23);
+    font-family: 'Open Sans',sans-serif;
+    font-size: 0.9rem;
+}
+
+.findMentorWrapper .btnArea{
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.findMentorText{
+    flex: 1 1 0%;
+    margin-right: 60px;
+}
+
+
+.get__help__btn{
+    color: rgb(255, 255, 255) !important;
+    min-width: 70px;
+    width: auto;
+    background: rgb(0, 159, 198) none repeat scroll 0% 0%;
+    border: 1px solid rgb(0, 159, 198);
+    border-radius: 3px;
+    outline: currentcolor none medium;
+    cursor: pointer;
+    text-transform: none;
+    padding: 15px 31px;
+    opacity: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    display: inline-flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    transition: background-color 0.1s ease-in-out 0s, border-color 0.1s ease-in-out 0s;
+}
+
+.get__help__btn:hover{
+background-color: #01384B;
+color: white;
+border: none;
+}
+
+.category__details__section{
+    background-color: #F3F6FA;
+    padding: 2% 6%;
+    padding-bottom: 5%;
+    background-position: left 40px top, right 60px bottom, 0% 0%;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-attachment: scroll, scroll, scroll;
+    background-image: url("../../public/assets/footprintDown.png"), url("../../public/assets/footprintUp.png"), none;
+    background-origin: padding-box, padding-box, padding-box;
+    background-clip: border-box, border-box, border-box;
+    background-size: 64px 243px;
+}
+
+.category__details__card{
+    background-color: white;
+    box-shadow: rgba(42, 92, 167, 0.1) 0px 5px 15px;
+    border-radius: 12px;
+    padding: 4% 3%;
+    max-width: 1000px;
+    white-space: pre-wrap;
+    margin: 0px auto 40px;
+
+
+}
+
+.category__details__part h2{
+    color: #002966;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.category__details__part p{
+   color: #333333;
+   font-size: 14px;
+   font-family: 'Open Sans',sans-serif;
+   line-height: 22px;
+}
+
+.category__details__card hr{
+    margin: 24px auto;
+    border: 1px solid rgb(216, 227, 240);
+}
+
+

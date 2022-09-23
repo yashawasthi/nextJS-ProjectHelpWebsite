@@ -1,0 +1,42 @@
+.landing__wrapper{
+    display:flex;
+    padding:20px 30px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.landing__text{
+    width:50%;
+    padding: 50px;
+    
+}
+
+.landing__text h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.landing__para{
+    color: var(--gray);
+}
+
+.landing__btn__wrapper{
+    margin-top: 50px;
+}
+
+.landing__btn{
+    background: var(--primaryColor);
+    padding: 15px 30px;
+    box-shadow: 0px 3px 3px 0px rgb(174, 212, 226);
+    border-radius: 3px;
+    color: white !important;
+    font-weight: bold;
+    transition:200ms ease-out;
+
+
+}
+
+.landing__btn:hover{
+    background: var(--darkPrimary);
+    color:white;
+}

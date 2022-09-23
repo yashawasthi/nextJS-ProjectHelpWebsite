@@ -1,0 +1,57 @@
+.footer{
+    background: rgb(241, 241, 241) none repeat scroll 0% 0%;
+    padding: 60px 80px 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+    padding-bottom: 70px;
+}
+
+.footer__logo__area{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    align-items: center;
+}
+
+.logo__footer{
+    font-weight: bold;
+    font-family: 'Cabin',sans-serif;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.footer p{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+
+}
+
+.aboutUs{
+    text-align: justify;
+    width: 80%;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+
+.footer__links{
+    margin-top: 50%;
+}
+
+.otherLinks{
+    float: right;
+    margin-top: 1%;
+}
+
+.otherLinks a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.socialIcon{
+    font-size: 1.6rem;
+}
